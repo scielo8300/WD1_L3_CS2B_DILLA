@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8" />
+        <meta name="viewport" 
+            content="width=device-width, initial-scale=1.0" />
+        <title>Sakatos Shop</title>
+
+        <!--External CSS-->
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <!--Internal CSS-->
+        <style>
+            .internal-demo {
+                background: whitesmoke;
+                border-left: 5px solid powderblue;
+                padding: 12px 15px;
+                margin: 20px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="top-header">
+            <!-- Create Area for Logo-->
+            <div class="brand"> <!--brand on left-->
+                <img src="media/logo.jpg" alt="Sakatos Logo" class="logo-img">
+                <h1>Sakatos Shop</h1>
+            </div>
+
+            <!--Navigation bar-->
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#collections">Collections</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#running">Running</a></li>
+                            <li><a href="#casual">Casual</a></li>
+                            <li><a href="#basketball">Basketball</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="home" class="container">
+            <section class="hero">
+                <div class="hero-text">
+                    <p class="eyebrow">
+                        Premium Footwear Presentation
+                    </p>
+                    <h2> Step Forward in Style and Comfort </h2>
+                    <p> explore our latest shoe showcase
+                        featuring clean layout, product
+                        highlights, and modern CSS styling
+                        techniques.
+                    </p>
+
+                    <a class="btn"  href="#gallery">View Collection</a>
+                    <p class="hero-note">
+                        This line uses internal CSS from the &lt;style&lt; block.</style>
+                    </p>
+                </div>
+                <div class="hero-image">
+                    <img 
+                        src="media/purple.png"
+                        alt="Modern Style of Log"
+                        class="shoe-img"
+                        />
+                </div>
+            </section>
+
+            <section class="internal-demo">
+                <!--Internal CSS Demonstration-->
+                <h2>Internal CSS Demo</h2>
+                <p>
+                    This box is styled in the HTML file
+                    using internal css, while rest of the
+                    page is styled using the external stylesheet.
+                </p>
+            </section>
+
+            <section id="features" class="content-grid">
+                <article class="card">
+                    <h2>Product Highlights</h2>
+                    <ul class="features-list">
+                        <li>Lightweight upper material</li>
+                        <li>Breathable Mesh Design</li>
+                        <li>Cushioned Sole Support</li>
+                        <li>Available in Multiple Colors</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h2>Size Guide</h2>
+                    <table class="size-table">
+                        <thead>
+                            <tr>
+                                <th>Size</th>
+                                <th>Length (cm)</th>
+                                <th>Fit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>7</td>
+                                <td>25.0</td>
+                                <td>Snug</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>26.0</td>
+                                <td>Regular</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>27.0</td>
+                                <td>Roomy</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+
+            <section id="gallery" class="gallery-section">
+                <h2>The Image Gallery</h2>
+                <div class="gallery">
+                    <img src="media/white.png">
+                    <img src="media/black.png">
+                    <img src="media/army.png">
+                </div>
+            </section>
+
+            <section class="info-columns">
+                <div class="card" id="running">
+                    <h2>Why choose this Shoe</h2>
+                    <ol>
+                        <li>Comfortable siya pang araw araw</li>
+                        <li>Sapatos de matibay</li>
+                        <li>Retro looking ang appearance</li>
+                    </ol>
+                </div>
+
+                <div class="card" id="basketball">
+                    <h2> Purchase Links </h2>
+                    <p>Visit Our
+                        <a href="#" class="text-link">
+                            Official Store
+                        </a>
+                        or Check Our
+                        <a href="#" class="text-link">
+                            New Arrivals
+                        </a>
+                    </p>
+                    <p>
+                        <i class="shoe-icon">👟</i>
+                        Designed for Pinoy by Pinoy from Pinoy to Pinoy with Pinoy kay Pinoy
+                    </p>
+                </div>
+            </section>
+
+            <section id="collections" class="card">
+                <h2>This is Inline CSS Demo</h2>
+                <p>
+                    <span style="color: plum; font-weight: bolder">
+                        This is with inline CSS
+                    </span>
+                    The others does not apply inline css just like this
+                    line.
+                </p>
+            </section>
+        </main>
+        <footer class="footer">
+              <section id="fruits" class="fruits-corner">
+            <h2 class="footer-heading"> Fresh Fruits Corner </h2>
+            <div class="fruit-grid">
+
+                <figure class="fruit-card">
+                    <img src="media/avo.jpg" alt="Avo" class="fruit-img">
+                    <figcaption>
+                        <strong>Avocado</strong>
+                        <p>
+                        Creamy and rich with a buttery texture. Perfect for
+                        toast,salads and smoothies.
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="fruit-card">
+                    <img src="media/chewi.jpg" alt="Cherry" class="fruit-img">
+                    <figcaption>
+                        <strong>Cherry</strong>
+                        <p>
+                            Small, juicy and sweettart with a brightred shine.
+                            Best eaten fresh as a snack or as a topping for 
+                            desserts.
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="fruit-card">
+                    <img src="media/nanaba.jpg" alt="Banana" class="fruit-img">
+                    <figcaption>
+                        <strong>Banana</strong>
+                        <p>
+                            Naturally creamy with a mellow tropical flavor.
+                            a quick energy boost that is perfect for breakfast
+                            or on the go.
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="fruit-card">
+                    <img src="media/grips.jpg" alt="Grapes" class="fruit-img">
+                    <figcaption>
+                        <strong>Grapes</strong>
+                        <p>
+                            Plump, bitesized and bursting with sweet juice.
+                            Great for snacking, freezing, and making juice or wine.
+                        </p>
+                    </figcaption>
+                </figure>
+               
+                <figure class="fruit-card">
+                    <img src="media/watahmelown.jpg" alt="Watermelon" class="fruit-img">
+                    <figcaption>
+                        <strong>Watermelon</strong>
+                        <p>
+                            Juicy and refreshing with crisp sweet red flesh.
+                            The ultimate summer fruit for hydration.
+                    </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="fruit-card">
+                    <img src="media/storoby.jpg" alt="Strawberry" class="fruit-img">
+                    <figcaption>
+                        <strong>Strawberry</strong>
+                        <p>
+                            Bright red, heart shaped,sweet with fresh scent.
+                            Loved for desserts,shakes or eaten fresh.
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="fruit-card">
+                    <img src="media/pinyapple.jpg" alt="Pineapple" class="fruit-img">
+                    <figcaption>
+                        <strong>Pineapple</strong>
+                        <p>
+                            Tangy and tropical with a perfect sweet-sour
+                            balance and juicy bite. Famous for its bright
+                            aroma and refreshing taste.
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure class="fruit-card">
+                    <img src="media/vlueverry.jpg" alt="Blueberry" class="fruit-img">
+                    <figcaption>
+                        <strong>Blueberry</strong>
+                        <p>
+                            Tiny,deep blue and mildy seet with a subtle pop.
+                            A superfood berry loaded with antioxidants.
+                        </p>
+                    </figcaption>
+                </figure>
+
+            </div>
+            </section>
+            <p class="footer-copy">COPYRIGHT 2026 @ LUCIA SAKATOS SHOPPE</p>
+        </footer>
+    </body>
+</html>
